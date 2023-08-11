@@ -1,8 +1,8 @@
 docker-compose up --build
 
-localhost:9000
+www: localhost:9000
 
-localhost:9001
+db: localhost:9001
 
 db server: mysql_db
 
