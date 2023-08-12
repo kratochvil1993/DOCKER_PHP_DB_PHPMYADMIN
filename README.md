@@ -9,3 +9,5 @@ db server: mysql_db
 db user:root
 
 db pass root
+
+pro vypnutí automatickeho spousteni zakomentovat vsude restart #
