@@ -12,5 +12,4 @@ db pass: root
 
 pro vypnutí automatickeho spousteni zakomentovat vsude restart #
 
-remove git
-rm -fr .git
+remove git: rm -fr .git
