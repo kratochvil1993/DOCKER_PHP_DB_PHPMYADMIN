@@ -11,3 +11,5 @@ if ($con) {
 include 'list.php';
 
 echo '<hr />';
+
+//echo '<pre>' . print_r($currency, true) . '</pre>';
