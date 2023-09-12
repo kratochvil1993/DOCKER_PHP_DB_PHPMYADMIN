@@ -4,8 +4,10 @@ echo "PHP run <br />";
 
 $con = new mysqli('mysql_db', 'root', 'root', 'mysql');
 
-if ($con) {
+if (isset($con) && $con) {
     echo "DB Connected <br />";
+} else {
+    echo "DB Notconnected <br />";
 }
 
 include 'list.php';
